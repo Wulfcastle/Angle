@@ -299,6 +299,7 @@ Icons included from
 * [__Font Awesome__](http://fortawesome.github.io/Font-Awesome/)
 * [__Skycons__](http://darkskyapp.github.io/skycons/)
 * [__Weather Icons__](http://erikflowers.github.io/weather-icons/)
+* [  Material Design Icons  ](http://zavoloklom.github.io/material-design-iconic-font/)
 
 ### Themes
 

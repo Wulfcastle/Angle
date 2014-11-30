@@ -7,13 +7,13 @@
   {
     "text": "Dashboard",
     "sref": "app.dashboard",
-    "icon": "icon-speedometer",
+    "icon": "md-sort",
     "translate": "sidebar.nav.DASHBOARD"
   },
   {
     "text": "Widgets",
     "sref": "app.widgets",
-    "icon": "icon-grid",
+    "icon": "md-dashboard",
     "alert": "30",
     "translate": "sidebar.nav.WIDGETS"
   },
@@ -25,7 +25,7 @@
   {
     "text": "Elements",
     "sref": "#",
-    "icon": "icon-chemistry",
+    "icon": "md-extension",
     "submenu": [
       {"text": "Buttons",       "sref": "app.buttons", "translate": "sidebar.nav.element.BUTTON" },
       {"text": "Notifications", "sref": "app.notifications", "translate": "sidebar.nav.element.NOTIFICATION" },
@@ -37,17 +37,25 @@
       {"text": "Portlets",      "sref": "app.portlets", "translate": "sidebar.nav.element.PORTLET" },
       {"text": "Grid",          "sref": "app.grid", "translate": "sidebar.nav.element.GRID" },
       {"text": "Grid Masonry",  "sref": "app.grid-masonry", "translate": "sidebar.nav.element.GRID_MASONRY" },
-      {"text": "Typography",    "sref": "app.typo", "translate": "sidebar.nav.element.TYPO" },
-      {"text": "Font Icons",    "sref": "app.icons-font", "alert": "+400", "translate": "sidebar.nav.element.FONT_ICON"  },
-      {"text": "Weather Icons", "sref": "app.icons-weather", "alert": "+100", "translate": "sidebar.nav.element.WEATHER_ICON" },
       {"text": "Colors",        "sref": "app.colors", "translate": "sidebar.nav.element.COLOR" }
     ],
     "translate": "sidebar.nav.element.ELEMENTS"
   },
+   {
+    "text": "Icons & Typography",
+    "sref": "#",
+    "icon": "md-text-format",
+    "submenu": [
+      {"text": "Typography",    "sref": "app.typo", "translate": "sidebar.nav.element.TYPO" },
+      {"text": "Font Icons",    "sref": "app.icons-font", "alert": "+400", "translate": "sidebar.nav.element.FONT_ICON"  },
+      {"text": "Weather Icons", "sref": "app.icons-weather", "alert": "+100", "translate": "sidebar.nav.element.WEATHER_ICON" }
+    ],
+    "translate": "Icons & Typography"
+  },
   {
     "text": "Forms",
     "sref": "#",
-    "icon": "icon-note",
+    "icon": "md-filter-none",
     "submenu": [
       {"text": "Standard",   "sref": "app.form-standard", "translate": "sidebar.nav.form.STANDARD" },
       {"text": "Extended",   "sref": "app.form-extended", "translate": "sidebar.nav.form.EXTENDED" },
@@ -60,7 +68,7 @@
   {
     "text": "Charts",
     "sref": "#",
-    "icon": "icon-graph",
+    "icon": "md-trending-up",
     "submenu": [
       { "text": "Flot",   "sref": "app.chart-flot", "translate": "sidebar.nav.chart.FLOT" },
       { "text": "Radial", "sref": "app.chart-radial", "translate": "sidebar.nav.chart.RADIAL" }
@@ -70,7 +78,7 @@
   {
     "text": "Tables",
     "sref": "#",
-    "icon": "icon-list",
+    "icon": "md-view-module",
     "submenu": [
       { "text": "Standard",   "sref": "app.table-standard", "translate": "sidebar.nav.table.STANDARD" },
       { "text": "Extended",   "sref": "app.table-extended", "translate": "sidebar.nav.table.EXTENDED" },
@@ -81,7 +89,7 @@
   {
     "text": "Maps",
     "sref": "#",
-    "icon": "icon-globe",
+    "icon": "md-my-location",
     "submenu": [
       {"text": "Google Maps",   "sref": "app.maps-google", "translate": "sidebar.nav.map.GOOGLE" },
       {"text": "Vector Maps",   "sref": "app.maps-vector", "translate": "sidebar.nav.map.VECTOR" }
@@ -96,7 +104,7 @@
   {
     "text": "Pages",
     "sref": "#",
-    "icon": "icon-doc",
+    "icon": "md-pages",
     "submenu": [
       { "text": "Login",            "sref": "page.login", "translate": "sidebar.nav.pages.LOGIN" },
       { "text": "Sign up",          "sref": "page.register", "translate": "sidebar.nav.pages.REGISTER" },
@@ -109,7 +117,7 @@
   {
     "text": "Extras",
     "sref": "#",
-    "icon": "icon-cup",
+    "icon": "md-my-library-add",
     "submenu": [
       { "text": "Mailbox",  "sref": "app.mailbox.inbox", "translate": "sidebar.nav.extra.MAILBOX" },
       { "text": "Timeline", "sref": "app.timeline", "translate": "sidebar.nav.extra.TIMELINE" },
@@ -124,7 +132,7 @@
   {
     "text": "Documentation",
     "sref": "app.documentation",
-    "icon": "icon-graduation",
+    "icon": "md-info-outline",
     "translate": "sidebar.nav.DOCUMENTATION"
   }
 ]
