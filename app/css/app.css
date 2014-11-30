@@ -3813,7 +3813,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 12px 15px;
   margin-bottom: 21px;
   list-style: none;
-  background-color: #fafafa;
   border-radius: 4px;
 }
 .breadcrumb > li {
@@ -4129,10 +4128,10 @@ a.thumbnail.active {
   color: #515253;
 }
 .alert {
-  padding: 8px;
-  margin-bottom: 21px;
-  border: 1px solid transparent;
-  border-radius: 3px;
+  padding: 10px;
+margin-bottom: 21px;
+border: 1px solid transparent;
+border-radius: 2px;
 }
 .alert h4 {
   margin-top: 0;
@@ -4503,7 +4502,7 @@ a.list-group-item-danger.active:focus {
   margin-bottom: 21px;
   background-color: #ffffff;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 2px;
   -webkit-box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
 }
@@ -4513,8 +4512,8 @@ a.list-group-item-danger.active:focus {
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
 }
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
@@ -4531,9 +4530,8 @@ a.list-group-item-danger.active:focus {
 .panel-footer {
   padding: 10px 15px;
   background-color: #fafafa;
-  border-top: 1px solid #eeeeee;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 .panel > .list-group {
   margin-bottom: 0;
@@ -4711,7 +4709,7 @@ a.list-group-item-danger.active:focus {
 .panel-default > .panel-heading {
   color: #444444;
   background-color: #ffffff;
-  border-color: #cfdbe2;
+
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #cfdbe2;
@@ -4723,13 +4721,29 @@ a.list-group-item-danger.active:focus {
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #cfdbe2;
 }
-.panel-primary {
-  border-color: #cfdbe2;
-}
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #5d9cec;
-  border-color: #cfdbe2;
+  background-color: #5677fc;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.panel-primary > .panel-body {
+  color: #ffffff;
+  background-color: #5677fc;
+    opacity:0.85;
+}
+
+.panel-primary > .panel-footer {
+  color: #ffffff;
+  background-color: #5677fc;
+    opacity:0.65;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #cfdbe2;
@@ -4741,16 +4755,30 @@ a.list-group-item-danger.active:focus {
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #cfdbe2;
 }
-.panel-success {
-  border-color: #cfdbe2;
-}
+
 .panel-success > .panel-heading {
   color: #ffffff;
-  background-color: #27c24c;
-  border-color: #cfdbe2;
+  background-color: #259b24;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
 }
-.panel-success > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #cfdbe2;
+.panel-success > .panel-body {
+  color: #ffffff;
+  background-color: #259b24;
+    opacity:0.85;
+}
+
+.panel-success > .panel-footer {
+  color: #ffffff;
+  background-color: #259b24;
+    opacity:0.65;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
 }
 .panel-success > .panel-heading .badge {
   color: #27c24c;
@@ -4759,34 +4787,59 @@ a.list-group-item-danger.active:focus {
 .panel-success > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #cfdbe2;
 }
-.panel-info {
-  border-color: #cfdbe2;
-}
+
 .panel-info > .panel-heading {
   color: #ffffff;
-  background-color: #23b7e5;
-  border-color: #cfdbe2;
+  background-color: #03a9f4;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
 }
-.panel-info > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #cfdbe2;
+.panel-info > .panel-body {
+  color: #ffffff;
+  background-color: #03a9f4;
+    opacity:0.85;
+}
+
+.panel-info > .panel-footer {
+  color: #ffffff;
+  background-color: #03a9f4;
+    opacity:0.65;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
 }
 .panel-info > .panel-heading .badge {
   color: #23b7e5;
   background-color: #ffffff;
 }
-.panel-info > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #cfdbe2;
-}
-.panel-warning {
-  border-color: #cfdbe2;
-}
+
 .panel-warning > .panel-heading {
   color: #ffffff;
-  background-color: #ff902b;
-  border-color: #cfdbe2;
+  background-color: #ff5722;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
 }
-.panel-warning > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #cfdbe2;
+.panel-warning > .panel-body {
+  color: #ffffff;
+  background-color: #ff5722;
+    opacity:0.85;
+}
+
+.panel-warning > .panel-footer {
+  color: #ffffff;
+  background-color: #ff5722;
+    opacity:0.65;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
 }
 .panel-warning > .panel-heading .badge {
   color: #ff902b;
@@ -4795,16 +4848,29 @@ a.list-group-item-danger.active:focus {
 .panel-warning > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #cfdbe2;
 }
-.panel-danger {
-  border-color: #cfdbe2;
-}
 .panel-danger > .panel-heading {
   color: #ffffff;
-  background-color: #f05050;
-  border-color: #cfdbe2;
+  background-color: #ee3d3d;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
 }
-.panel-danger > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #cfdbe2;
+.panel-danger > .panel-body {
+  color: #ffffff;
+  background-color: #ee3d3d;
+    opacity:0.85;
+}
+
+.panel-danger > .panel-footer {
+  color: #ffffff;
+  background-color: #ee3d3d;
+    opacity:0.65;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
 }
 .panel-danger > .panel-heading .badge {
   color: #f05050;
@@ -4924,9 +4990,7 @@ button.close {
 .modal-content {
   position: relative;
   background-color: #ffffff;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 3px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
