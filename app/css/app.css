@@ -89,6 +89,9 @@
 12. Documentation
   12.1 docs
 
+13. Color Pallette
+  13.1 Material Design Color Palette
+
  ========================================================================== */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
@@ -15523,3 +15526,141 @@ flatdoc [role~="flatdoc-content"] > h3 {
   border-top: 1px solid #f1f2f3;
   margin: 0 -20px;
 }
+
+/* ========================================================================
+       Material Design Color Palette
+========================================================================*/
+
+.bg-pale-green {
+  background-color: #76fdda;
+}
+
+.bg-red-500 {
+  background-color: #e51c23;
+}
+
+.bg-red-A200 {
+  background-color: #ff5177;
+}
+
+.bg-pink-500 {
+  background-color: #e91e63;
+}
+
+.bg-pink-A200 {
+  background-color: #ff4081;
+}
+.bg-purple-500 {
+  background-color: #9c27b0;
+}
+
+.bg-purple-A200 {
+  background-color: #e040fb;
+}
+
+.bg-deep-purple-500 {
+  background-color: #673ab7;
+}
+
+.bg-deep-purple-A200 {
+  background-color: #7c4dff;
+}
+
+.bg-indigo-500 {
+  background-color: #3f51b5;
+}
+
+.bg-indigo-A200 {
+  background-color: #536dfe;
+}
+
+
+.bg-blue-500 {
+  background-color: #5677fc;
+}
+
+.bg-blue-A200 {
+  background-color: #6889ff;
+}
+
+.bg-light-blue-500 {
+  background-color: #03a9f4;
+}
+
+.bg-light-blue-A200 {
+  background-color: #40c4ff;
+}
+
+.bg-cyan-500 {
+  background-color: #00bcd4;
+}
+
+.bg-cyan-A200 {
+  background-color: #18ffff;
+}
+
+.bg-teal-500 {
+  background-color: #009688;
+}
+
+.bg-teal-A200 {
+  background-color: #64ffda;
+}
+
+.bg-green-500 {
+  background-color: #259b24;
+}
+
+.bg-green-A200 {
+  background-color: #5af158;
+}
+
+.bg-light-green-500 {
+  background-color: #8bc34a;
+}
+
+.bg-light-green-A200 {
+  background-color: #b2ff59;
+}
+
+.bg-lime-500 {
+  background-color: #cddc39;
+}
+
+.bg-lime-A200 {
+  background-color: #eeff41;
+}
+
+.bg-yellow-500 {
+  background-color: #eeff41;
+}
+
+.bg-yellow-A200 {
+  background-color: #ffff00;
+}
+
+
+.bg-amber-500 {
+  background-color: #ffc107;
+}
+
+.bg-amber-A200 {
+  background-color: #ffd740;
+}
+
+.bg-orange-500 {
+  background-color: #ff9800;
+}
+
+.bg-orange-A200 {
+  background-color: #ffab40;
+}
+
+.bg-deep-orange-500 {
+  background-color: #ff5722;
+}
+
+.bg-deep-orange-A200 {
+  background-color: #ff6e40;
+}
+
