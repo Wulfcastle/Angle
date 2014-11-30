@@ -13,9 +13,9 @@ body,
 }
 .topnavbar .navbar-header {
   background-color: transparent;
-  background-image: -webkit-linear-gradient(left, #1797be 0%, #23b7e5 100%);
-  background-image: -o-linear-gradient(left, #1797be 0%, #23b7e5 100%);
-  background-image: linear-gradient(to right, #1797be 0%, #23b7e5 100%);
+  background-image: -webkit-linear-gradient(left, #5677fc 0%, #6889ff 100%);
+  background-image: -o-linear-gradient(left, #5677fc 0%, #6889ff 100%);
+  background-image: linear-gradient(to right, #5677fc 0%, #6889ff 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1797be', endColorstr='#ff23b7e5', GradientType=1);
 }
@@ -26,13 +26,13 @@ body,
 }
 .topnavbar .navbar-nav > li > a,
 .topnavbar .navbar-nav > .open > a {
-  color: #1797be;
+  color: #5677fc;
 }
 .topnavbar .navbar-nav > li > a:hover,
 .topnavbar .navbar-nav > .open > a:hover,
 .topnavbar .navbar-nav > li > a:focus,
 .topnavbar .navbar-nav > .open > a:focus {
-  color: #0c4f63;
+  color: #B0BAE2;
 }
 .topnavbar .navbar-nav > .active > a,
 .topnavbar .navbar-nav > .open > a,
@@ -46,21 +46,21 @@ body,
   color: #ffffff;
 }
 .topnavbar .nav-wrapper {
-  background-color: #1797be;
-  background-image: -webkit-linear-gradient(left, #1797be 0%, #23b7e5 100%);
-  background-image: -o-linear-gradient(left, #1797be 0%, #23b7e5 100%);
-  background-image: linear-gradient(to right, #1797be 0%, #23b7e5 100%);
+  background-color: #5677fc;
+  background-image: -webkit-linear-gradient(left, #5677fc 0%, #6889ff 100%);
+  background-image: -o-linear-gradient(left, #5677fc 0%, #6889ff 100%);
+  background-image: linear-gradient(to right, #5677fc 0%, #6889ff 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1797be', endColorstr='#ff23b7e5', GradientType=1);
 }
 @media only screen and (min-width: 768px) {
   .topnavbar {
-    background-color: #1797be;
-    background-image: -webkit-linear-gradient(left, #1797be 0%, #23b7e5 100%);
-    background-image: -o-linear-gradient(left, #1797be 0%, #23b7e5 100%);
-    background-image: linear-gradient(to right, #1797be 0%, #23b7e5 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1797be', endColorstr='#ff23b7e5', GradientType=1);
+   background-color: #5677fc;
+  background-image: -webkit-linear-gradient(left, #5677fc 0%, #6889ff 100%);
+  background-image: -o-linear-gradient(left, #5677fc 0%, #6889ff 100%);
+  background-image: linear-gradient(to right, #5677fc 0%, #6889ff 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1797be', endColorstr='#ff23b7e5', GradientType=1);
   }
   .topnavbar .navbar-nav > .open > a,
   .topnavbar .navbar-nav > .open > a:hover,
@@ -69,13 +69,13 @@ body,
   }
   .topnavbar .navbar-nav > li > a,
   .topnavbar .navbar-nav > .open > a {
-    color: #ffffff;
+    color: #fff;
   }
   .topnavbar .navbar-nav > li > a:hover,
   .topnavbar .navbar-nav > .open > a:hover,
   .topnavbar .navbar-nav > li > a:focus,
   .topnavbar .navbar-nav > .open > a:focus {
-    color: #0c4f63;
+    color: #B0BAE2;
   }
 }
 /* ========================================================================
@@ -95,7 +95,7 @@ body,
 .sidebar .nav > li > .nav-item:focus,
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > .nav-item:hover {
-  color: #1797be;
+  color: #5677fc;
 }
 .sidebar .nav > li > a > em,
 .sidebar .nav > li > .nav-item > em {
@@ -107,12 +107,12 @@ body,
 .sidebar .nav > li.open > a,
 .sidebar .nav > li.active .nav,
 .sidebar .nav > li.open .nav {
-  background-color: #383d4e;
-  color: #1797be;
+  background-color: #2F3444;
+  color: #5677fc;
 }
 .sidebar .nav > li.active > a > em,
 .sidebar .nav > li.open > a > em {
-  color: #1797be;
+  color: #5677fc;
 }
 .sidebar-subnav {
   background-color: #3a3f51;
@@ -128,16 +128,16 @@ body,
 .sidebar-subnav > li > .nav-item:focus,
 .sidebar-subnav > li > a:hover,
 .sidebar-subnav > li > .nav-item:hover {
-  color: #1797be;
+  color: #5677fc;
 }
 .sidebar-subnav > li.active > a,
 .sidebar-subnav > li.active > .nav-item {
-  color: #1797be;
+  color: #5677fc;;=
 }
 .sidebar-subnav > li.active > a:after,
 .sidebar-subnav > li.active > .nav-item:after {
-  border-color: #1797be;
-  background-color: #1797be;
+  border-color: #5677fc;
+  background-color: #5677fc;
 }
 /* ========================================================================
    Component: offsidebar
