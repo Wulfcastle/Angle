@@ -4521,7 +4521,7 @@ a.list-group-item-danger.active:focus {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 12.5px;
   color: inherit;
 }
 .panel-title > a {
@@ -4706,11 +4706,28 @@ a.list-group-item-danger.active:focus {
 .panel-default {
   border-color: none;
 }
+
 .panel-default > .panel-heading {
   color: #444444;
   background-color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
 
 }
+
+.panel-default > .panel-footer {
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #cfdbe2;
 }
@@ -5836,7 +5853,7 @@ now {
 }
 .panel .panel-heading {
   border-bottom: 0;
-  font-size: 14px;
+  font-size: 11px;
 }
 .panel .panel-heading a {
   text-decoration: none !important;
