@@ -19,25 +19,25 @@
          <li>
             <!-- Button used to collapse the left sidebar. Only visible on tablet and desktops-->
             <a href="#" ng-click="app.layout.isCollapsed = !app.layout.isCollapsed" class="hidden-xs">
-               <em class="fa fa-navicon"></em>
+               <i class="md-menu"></i>
             </a>
             <!-- Button to show/hide the sidebar on mobile. Visible on mobile only.-->
             <a href="#" toggle-state="aside-toggled" no-persist="no-persist" class="visible-xs sidebar-toggle">
-               <em class="fa fa-navicon"></em>
+               <i class="md-menu"></i>
             </a>
          </li>
          <!-- START User avatar toggle-->
          <li>
             <!-- Button used to collapse the left sidebar. Only visible on tablet and desktops-->
             <a href="#" ng-click="toggleUserBlock()">
-               <em class="icon-user"></em>
+               <i class="md-account-circle"></i> 
             </a>
          </li>
          <!-- END User avatar toggle-->
          <!-- START lock screen-->
          <li>
             <a ui-sref="page.lock" title="Lock screen">
-               <em class="icon-lock"></em>
+              <i class="md-lock"></i> 
             </a>
          </li>
          <!-- END lock screen-->
