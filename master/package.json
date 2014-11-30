@@ -1,8 +1,8 @@
 {
-  "name": "Angle",
-  "version": "1.4.0",
+  "name": "Sussurus",
+  "version": "1.0.0",
   "description": "Admin Bootstrap Theme",
-  "author": "@themicon_co",
+  "author": "Sawss",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.8.8",
