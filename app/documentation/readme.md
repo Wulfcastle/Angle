@@ -25,7 +25,7 @@ Opening the index.html with a double click (i.e. using file:// protocol) will sh
 
 None of the above worked?
 
-[Contact Support >](https://wrapbootstrap.com/user/themicon)
+[Contact Support >](http://themeforest.net/user/Sawss)
 
 ### Structure
 
