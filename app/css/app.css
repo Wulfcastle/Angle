@@ -13052,7 +13052,7 @@ x:-o-prefocus,
 }
 .c-checkbox span:before,
 .c-radio span:before {
-  margin-left: 1px;
+  margin-left: -1px;
 }
 .c-checkbox:hover span,
 .c-radio:hover span {
