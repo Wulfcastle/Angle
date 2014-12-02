@@ -14872,17 +14872,17 @@ body .jvectormap-zoomout {
   color: inherit;
 }
 .bg-success {
-  background-color: #259b24;
+  background-color: #4caf50;
   color: #ffffff !important;
      opacity: 0.85;
 }
 .bg-success-light {
-  background-color: #259b24;
+  background-color: #4caf50;
   color: #ffffff !important;
      opacity: 0.65;
 }
 .bg-success-dark {
-  background-color: #259b24;
+  background-color: #4caf50;
   color: #ffffff !important;
 }
 .bg-success small {
@@ -14923,17 +14923,17 @@ body .jvectormap-zoomout {
   color: inherit;
 }
 .bg-danger {
-  background-color: #ee3d3d;
+  background-color: #f44336;
   color: #ffffff !important;
      opacity: 0.85;
 }
 .bg-danger-light {
-  background-color: #ee3d3d;
+  background-color: #f44336;
   color: #ffffff !important;
     opacity: 0.65;
 }
 .bg-danger-dark {
-  background-color: #ee3d3d;
+  background-color: #f44336;
   color: #ffffff !important;
 }
 .bg-danger small {
