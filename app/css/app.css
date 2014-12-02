@@ -13149,51 +13149,54 @@ x:-o-prefocus,
 .switch span {
   position: relative;
   display: inline-block;
-  width: 40px;
-  height: 20px;
-  background-color: #fff;
-  border: 1px solid #dddddd;
+  width: 50px;
+  height: 12.5px;
+  background-color: #b0afaf;
   border-radius: 100px;
   transition: all .5s;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1) inset;
 }
+
+
+
 .switch span:after {
-  content: "";
-  position: absolute;
-  background-color: #fff;
-  top: 0;
-  left: 0;
-  height: 18px;
-  width: 18px;
-  border: 1px solid #ddd;
-  border-radius: 400px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all .2s;
+    content: "";
+    position: absolute;
+    background-color: #009688;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: #009688;
+    border-radius: 400px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all .2s;
+    margin-top: -4px;
 }
 .switch.switch-lg span {
-  width: 50px;
-  height: 25px;
+  width: 70px;
+  height: 15px;
 }
 .switch.switch-lg span:after {
-  height: 23px;
-  width: 23px;
+  height: 22.5px;
+  width: 22.5px;
 }
 .switch.switch-sm span {
   width: 30px;
-  height: 15px;
+  height: 10px;
 }
 .switch.switch-sm span:after {
-  height: 13px;
-  width: 13px;
+  height: 15px;
+  width: 15px;
+  margin-top: -3px;
 }
 .switch input:checked + span {
-  background-color: #5d9cec;
-  border-color: #5d9cec;
+  background-color: #77c2bb;
+  border-color: #77c2bb;
   transition: all .5s;
 }
 .switch input:checked + span:after {
-  left: 50%;
-  transition: all .2s;
+  left: 67.5%;
+  transition: all .15s;
 }
 .form-control-feedback {
   left: 16px;
