@@ -12,7 +12,7 @@ body,
   background-color: #fff;
 }
 .topnavbar .navbar-header {
-  background-color: #009688;
+  background-color: #4caf50;
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff37bc9b', endColorstr='#ff58ceb1', GradientType=1);
 }
@@ -23,13 +23,13 @@ body,
 }
 .topnavbar .navbar-nav > li > a,
 .topnavbar .navbar-nav > .open > a {
-  color: #009688;
+  color: #4caf50;
 }
 .topnavbar .navbar-nav > li > a:hover,
 .topnavbar .navbar-nav > .open > a:hover,
 .topnavbar .navbar-nav > li > a:focus,
 .topnavbar .navbar-nav > .open > a:focus {
-  color: #40c4ff;
+  color: #3b7d3d;
 }
 .topnavbar .navbar-nav > .active > a,
 .topnavbar .navbar-nav > .open > a,
@@ -43,13 +43,13 @@ body,
   color: #ffffff;
 }
 .topnavbar .nav-wrapper {
-  background-color: #009688;
+  background-color: #4caf50;
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff37bc9b', endColorstr='#ff58ceb1', GradientType=1);
 }
 @media only screen and (min-width: 768px) {
   .topnavbar {
-  background-color: #009688;
+  background-color: #4caf50;
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff37bc9b', endColorstr='#ff58ceb1', GradientType=1);
   }
@@ -66,7 +66,7 @@ body,
   .topnavbar .navbar-nav > .open > a:hover,
   .topnavbar .navbar-nav > li > a:focus,
   .topnavbar .navbar-nav > .open > a:focus {
-    color: #40c4ff;
+    color: #3b7d3d;
   }
 }
 /* ========================================================================
@@ -86,7 +86,7 @@ body,
 .sidebar .nav > li > .nav-item:focus,
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > .nav-item:hover {
-  color: #009688;
+  color: #4caf50;
 }
 .sidebar .nav > li > a > em,
 .sidebar .nav > li > .nav-item > em {
@@ -99,11 +99,11 @@ body,
 .sidebar .nav > li.active .nav,
 .sidebar .nav > li.open .nav {
   background-color: #2F3444;
-  color: #009688;
+  color: #4caf50;
 }
 .sidebar .nav > li.active > a > em,
 .sidebar .nav > li.open > a > em {
-  color: #009688;
+  color: #4caf50;
 }
 .sidebar-subnav {
   background-color: #3a3f51;
