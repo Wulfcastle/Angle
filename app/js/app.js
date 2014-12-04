@@ -197,10 +197,10 @@ function ($stateProvider, $urlRouterProvider, $controllerProvider, $compileProvi
         templateUrl: basepath('icons-font.html'),
         controller: 'NullController'
     })
-    .state('app.icons-weather', {
-        url: '/icons-weather',
-        title: 'Icons Weather',
-        templateUrl: basepath('icons-weather.html'),
+    .state('app.icons-material', {
+        url: '/icons-material',
+        title: 'Icons Material',
+        templateUrl: basepath('icons-material.html'),
         controller: 'NullController'
     })
     .state('app.form-standard', {
