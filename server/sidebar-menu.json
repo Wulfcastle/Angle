@@ -47,8 +47,8 @@
     "icon": "md-text-format",
     "submenu": [
       {"text": "Typography",    "sref": "app.typo", "translate": "sidebar.nav.element.TYPO" },
-      {"text": "Font Icons",    "sref": "app.icons-font", "alert": "+400", "translate": "sidebar.nav.element.FONT_ICON"  },
-      {"text": "Weather Icons", "sref": "app.icons-weather", "alert": "+100", "translate": "sidebar.nav.element.WEATHER_ICON" }
+      {"text": "Material Design Icons", "sref": "app.icons-weather", "alert": "+100", "translate": "sidebar.nav.element.WEATHER_ICON" },
+      {"text": "Font Icons",    "sref": "app.icons-font", "alert": "+400", "translate": "sidebar.nav.element.FONT_ICON"  }      
     ],
     "translate": "Icons & Typography"
   },
