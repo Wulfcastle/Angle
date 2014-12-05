@@ -506,8 +506,7 @@ Learn more by looking into the file __config.js__
 
 Credits
 -------
-<div class="row">
-<div class="col-lg-3">
+
 [Angular](https://angularjs.org/)  
 [Angular Docs](https://docs.angularjs.org/guide/)  
 [ocLazyLoad](https://github.com/ocombe/ocLazyLoad)  
@@ -530,8 +529,6 @@ Credits
 [ClassyLoader](http://www.class.pm/projects/jquery/classyloader/)  
 [CSSRadialBar](http://codepen.io/geedmo/pen/InFfd)  
 [ngWig](http://stevermeister.github.io/ngWig/)
-</div>
-<div class="col-lg-3">
 [Modernizr](http://modernizr.com/)  
 [MomentJs](http://momentjs.com/)  
 [Parsley](http://parsleyjs.org/)  
@@ -550,17 +547,15 @@ Credits
 [UiKit Upload](http://www.getuikit.com/docs/addons_upload.html)  
 [UiKit Notify](http://www.getuikit.com/docs/addons_notify.html)  
 [UiKit MarkdownArea](http://www.getuikit.com/docs/addons_markdownarea.html)  
-</div>
-<div class="col-lg-3">
+
 Icons  
 
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/)  
 [Material Design Icons](http://zavoloklom.github.io/material-design-iconic-font/)
-<br>
+
+
 Demo images  
 
 [uiFaces](http://uifaces.com/)  
 [Raumrot](http://www.raumrot.com/10/)  
 [Unsplash](http://unsplash.com)  
-</div>
-</div>
